@@ -1,0 +1,390 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    scroll-behavior: smooth;
+}
+
+.head {
+    margin-top: 20px;
+}
+
+/* logo */
+.logo-div {
+    display: inline;
+}
+
+#logo {
+    font-weight: bold;
+    font-size: 26px;
+    margin-left: 100px;
+    color: black;
+}
+
+#H {
+    font-size: 18px;
+    margin-left: 100px;
+    color: rgb(185, 176, 176);
+}
+
+#T {
+    color: rgb(0, 128, 255);
+    font-size: 36px;
+}
+
+/* navbar */
+.nav-div {
+    display: inline;
+    float: right;
+    text-align: center;
+    margin-right: 100px;
+}
+
+.navbar {
+    display: inline;
+    float: left;
+}
+
+.navbar a {
+    margin-right: 50px;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navbar a:hover {
+    color: rgb(20, 138, 216);
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+/* ad Image preview */
+
+.ad-img-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.ad-img {
+    width: 100%;
+    height: 680px;
+    background-color: aquamarine;
+    text-align: center;
+    position: relative;
+}
+
+.ad {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    z-index: -3;
+    margin-bottom: 10px;
+    box-shadow: 0px 5px 5px black;
+
+}
+
+.txt-ad1 {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-size: 20px;
+}
+
+.txt-ad2 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.change-img-btn {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border: 0;
+    background-color: white;
+    font-size: 28px;
+    color: rgb(112, 103, 103);
+}
+
+.change-img-btn:hover {
+    color: black;
+    font-size: 32px;
+}
+
+
+/* OUR SERVICE */
+
+.service-div {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.head-service {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.grid-service {
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    margin-top: 80px;
+    column-gap: 30px;
+
+}
+
+.grid {
+    margin-bottom: 40px;
+    /* margin-right: 60px; */
+    padding-top: 20px;
+    background-color: rgb(26, 184, 184);
+    height: 200PX;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.img-serv {
+    height: 150px;
+    width: 150px;
+}
+
+.txt-service {
+    /* font-weight: bold; */
+    color: white;
+    margin-top: 10px;
+}
+
+.grid:hover {
+    box-shadow: 3px 3px 10px black;
+}
+
+/* place information */
+
+.pack-div-main {
+    background-color: rgb(247, 247, 247);
+}
+
+.pack-div {
+    overflow: auto;
+    white-space: nowrap;
+    column-gap: 30px;
+    margin-left: 130px;
+    margin-right: 130px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.season {
+    font-size: 28px;
+    margin-left: 230px;
+    padding-top: 30px;
+    color: rgb(220, 41, 41);
+}
+
+.one-1 {
+    height: 525px;
+    width: 300px;
+    margin-left: 100px;
+    background-color: rgb(242, 242, 242);
+    box-shadow: 4px 4px 10px;
+    border-radius: 10px;
+    position: relative;
+    display: inline-block;
+    /* text-overflow: ellipsis;
+    overflow: hidden; */
+}
+
+.place-img {
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+    z-index: -3;
+}
+
+.place-tag {
+    color: rgb(220, 41, 41);
+    font-size: 26px;
+    /* margin-left: 10px; */
+    margin-top: 10px;
+    position: absolute;
+    top: 4%;
+    margin-left: 20px;
+    z-index: 3;
+    text-align: center;
+    font-family: Copperplate Gothic Light;
+    font-weight: bold;
+    color: white;
+}
+
+.place-caption {
+    margin-left: 10px;
+    color: rgb(63, 61, 61);
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.price {
+    display: inline;
+    float: left;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+/* .r-symb{
+    color: red;
+} */
+.r-per {
+    font-size: 17px;
+    color: rgb(63, 61, 61);
+
+}
+
+.book {
+    border: 0px;
+    color: white;
+    background-color: rgb(220, 41, 41);
+    line-height: 30px;
+    width: 120px;
+    float: right;
+    margin-right: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.book:hover {
+    height: 33px;
+    width: 125px;
+}
+
+.book a {
+    color: white;
+}
+
+.duration {
+    font-size: 17px;
+    display: inline;
+    margin-left: 9px;
+}
+
+.difficulty span {
+    color: rgb(220, 41, 41);
+}
+
+.difficulty {
+    float: right;
+    margin-right: 10px;
+    color: black;
+}
+
+.month {
+    color: rgb(220, 41, 41);
+    ;
+    ;
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+.month-name {
+    color: black;
+}
+
+/* footer */
+
+
+.footer {
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.1em;
+}
+
+.row {
+    margin-top: 48px;
+}
+
+.footer p {
+    color: #8a8a8a;
+}
+
+.footer h3 {
+    color: #fff;
+    text-align: center;
+}
+
+.footer-col-1,
+.footer-col-2,
+.footer-col-3,
+.footer-col-4 {
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-col-1 {
+    flex-basis: 30%;
+}
+
+.footer-col-2 {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-col-2 img {
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.footer-col-3,
+.footer-col-4 {
+    flex-basis: 12%;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.app-logo {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.app-logo img {
+    width: 140px;
+}
+
+.col-1-para {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer hr {
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.footer-container {
+    margin-top: -75px;
+}

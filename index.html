@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>TravelApp</title>
+    <link rel="shortcut icon" href="img1/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="head-div">
+        <header class="head">
+            <div class="logo-div">
+                <a id="logo" href="#"><span id="T">T</span>ravel<br /> <span id="H">through the world</span></a>
+            </div>
+
+            <div class="nav-div">
+                <nav class="navbar">
+                    <a href="index.html">Home</a>
+                    <a href="myBooking.php" style="color:rgb(255, 0, 0);">My booking</a>
+                    <a href="#packages">Packages</a>
+                    <a href="#footer">About</a>
+                </nav>
+            </div>
+        </header>
+    </div>
+
+    <div class="ad-img-main">
+        <div class="ad-img">
+            <img id="adx" class="ad" src="img1/1.jpg" alt="img">
+            <p class="txt-ad1">Explore, Discover, Travel</p>
+            <p class="txt-ad2" id="quots">TRAVEL AROUND <BR> THE WORLD</p>
+            <button class="change-img-btn" onclick="prevImage()">◀</button>
+            <button class="change-img-btn" onclick="nextImage()">▶</button>
+        </div>
+    </div>
+
+    <br><br><br>
+    <div class="service-div">
+        <div class="head-service">OUR SERVICES</div>
+
+        <div class="grid-service">
+
+            <div class="grid" id="g-1">
+                <img src="img1/service/1.png" class="img-serv" alt="">
+                <p class="txt-service">ADVENTURE</p>
+            </div>
+
+            <div class="grid" id="g-2">
+                <img src="img1/service/2.png" class="img-serv" alt="">
+                <p class="txt-service">TOUR GUIDE</p>
+            </div>
+
+            <div class="grid" id="g-3">
+                <img src="img1/service/3.png" class="img-serv" alt="">
+                <p class="txt-service">TREKKING</p>
+            </div>
+
+            <div class="grid" id="g-4">
+                <img src="img1/service/4.jpg" class="img-serv" alt="">
+                <p class="txt-service">CAMP FIRE</p>
+            </div>
+
+            <div class="grid" id="g-5">
+                <img src="img1/service/5.png" class="img-serv" alt="">
+                <p class="txt-service">OFF ROAD</p>
+            </div>
+
+            <div class="grid" id="g-6">
+                <img src="img1/service/6.jpg" class="img-serv" alt="">
+                <p class="txt-service">CAMPING</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="pack-div-main" id="packages">
+
+        <div class="season">Diwali Events</div><br><br>
+
+        <div class="pack-div">
+
+            <div class="one-1">
+                <img src="img1/place/dwarka.jpg" alt="dwarka" class="place-img">
+                <p class="place-tag">Dwarka</p>
+                <div class="place-info"><br>
+                    <P class="place-caption">Feel the thrill of Beach Camping!</P><br>
+                    <p class="price"> <span class="r-symb">₹</span>5,600 <span class="r-per">/ person</span></p>
+                    <button class="book"><a href="book.php?heading=Dwarka" style="color: white;">Book now</a></button><br><br>
+                    <p class="duration">📅 3 days / 2 nights</p>
+                    <p class="difficulty"> <span>Difficulty :</span> easy</p><br><br>
+                    <p class="month">Best for : <span class="month-name">OCT, NOV, DEC, JAN</span></p>
+                </div>
+            </div>
+            <div class="one-1">
+                <img src="img1/place/jaisalmer.webp" alt="jaisalmer" class="place-img">
+                <p class="place-tag">Jaisalmer</p>
+                <div class="place-info"><br>
+                    <P class="place-caption">The Desert Camping in Jaisalmer!</P><br>
+                    <p class="price"> <span class="r-symb">₹</span>4,300 <span class="r-per">/ person</span></p>
+                    <button class="book"><a href="book.php?heading=Jaisalmer" style="color: white;">Book now</a></button><br><br>
+                    <p class="duration">📅 4 days / 3 nights</p>
+                    <p class="difficulty"> <span>Difficulty :</span> easy</p><br><br>
+                    <p class="month">Best for : <span class="month-name">OCT, NOV, DEC, JAN</span></p>
+                </div>
+            </div>
+            <div class="one-1">
+                <img src="img1/place/kutch.jpg" alt="kutch" class="place-img">
+                <p class="place-tag">Kutch</p>
+                <div class="place-info"><br>
+                    <P class="place-caption">One of the Most Famous Tourist Attractions of Gujarat</P><br>
+                    <p class="price"> <span class="r-symb">₹</span>3,500 <span class="r-per">/ person</span></p>
+                    <button class="book"><a href="book.php?heading=Kutch" style="color: white;">Book now</a></button><br><br>
+                    <p class="duration">📅 3 days / 2 nights</p>
+                    <p class="difficulty"> <span>Difficulty :</span> easy</p><br><br>
+                    <p class="month">Best for : <span class="month-name">NOV, DEC, JAN</span></p>
+                </div>
+            </div>
+            <div class="one-1">
+                <img src="img1/place/MH.jpg" alt="MH" class="place-img">
+                <p class="place-tag">Magical<br>Maharastra</p>
+                <div class="place-info"><br>
+                    <P class="place-caption">Unveil the mysterious treks of Maharashtra!</P><br>
+                    <p class="price"> <span class="r-symb">₹</span>3,500 <span class="r-per">/ person</span></p>
+                    <button class="book"><a href="book.php?heading=Magical Maharastra" style="color: white;">Book now</a></button><br><br>
+                    <p class="duration">📅 3 days / 2 nights</p>
+                    <p class="difficulty"> <span>Difficulty :</span> easy</p><br><br>
+                    <p class="month">Best for : <span class="month-name">NOV, DEC</span></p>
+                </div>
+            </div>
+            <div class="one-1">
+                <img src="img1/place/saputara.jpg" alt="saputara" class="place-img">
+                <p class="place-tag">Saputara</p>
+                <div class="place-info"><br>
+                    <P class="place-caption">Simply Kashmir of Gujarat!</P><br>
+                    <p class="price"> <span class="r-symb">₹</span>2,000 <span class="r-per">/ person</span></p>
+                    <button class="book"><a href="book.php?heading=Saputara" style="color: white;">Book now</a></button><br><br>
+                    <p class="duration">📅 2 days /  1 night</p>
+                    <p class="difficulty"> <span>Difficulty :</span> easy</p><br><br>
+                    <p class="month">Best for : <span class="month-name">AUG, SEPT, OCT, NOV</span></p>
+                </div>
+            </div>
+            <div class="one-1">
+                <img src="img1/place/poloforest.webp" alt="poloforest" class="place-img">
+                <p class="place-tag">Polo <br>Forest</p>
+                <div class="place-info"><br>
+                    <P class="place-caption">Polo Forest Trekking Camp</P><br>
+                    <p class="price"> <span class="r-symb">₹</span>1,400 <span class="r-per">/ person</span></p>
+                    <button class="book"><a href="book.php?heading=Polo Forest" style="color: white;">Book now</a></button><br><br>
+                    <p class="duration">📅 2 days / 1 night</p>
+                    <p class="difficulty"> <span>Difficulty :</span> easy</p><br><br>
+                    <p class="month">Best for : <span class="month-name">OCY, NOV, DEC, JAN</span></p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="season">Snow Events</div><br><br>
+
+        <div class="pack-div">
+
+            <div class="one-1">
+                <img src="img1/place/brahmtal.jfif" alt="dwarka" class="place-img">
+                <p class="place-tag">Brahmtal</p>
+                <div class="place-info"><br>
+                    <P class="place-caption">Enjoy the Best Views of Mt Trishul and Mt Nanda Ghunti</P><br>
+                    <p class="price"> <span class="r-symb">₹</span>6,000 <span class="r-per">/ person</span></p>
+                    <button class="book"><a href="book.php?heading=Brahmtal" style="color: white;">Book now</a></button><br><br>
+                    <p class="duration">📅 5 days / 4 nights</p>
+                    <p class="difficulty"> <span>Difficulty :</span> hard</p><br><br>
+                    <p class="month">Best for : <span class="month-name">DEC, JAN, FEB</span></p>
+                </div>
+            </div>
+            <div class="one-1">
+                <img src="img1/place/dalhousie.jpg" alt="dalhousie" class="place-img">
+                <p class="place-tag">Dalhousie</p>
+                <div class="place-info"><br>
+                    <P class="place-caption">Inviting you to play in the lap of Mother Nature</P><br>
+                    <p class="price"> <span class="r-symb">₹</span>7,000 <span class="r-per">/ person</span></p>
+                    <button class="book"><a href="book.php?heading=Dalhousie" style="color: white;">Book now</a></button><br><br>
+                    <p class="duration">📅 8 days / 7 nights</p>
+                    <p class="difficulty"> <span>Difficulty :</span> hard</p><br><br>
+                    <p class="month">Best for : <span class="month-name">DEC, JAN, FEB, MARCH</span></p>
+                </div>
+            </div>
+            <div class="one-1">
+                <img src="img1/place/kedarkantha.jpg" alt="kedarkantha" class="place-img">
+                <p class="place-tag">Kedarkantha</p>
+                <div class="place-info"><br>
+                    <P class="place-caption">The most popular Winter Trek of India</P><br>
+                    <p class="price"> <span class="r-symb">₹</span>5,500 <span class="r-per">/ person</span></p>
+                    <button class="book"><a href="book.php?heading=Kedarkantha" style="color: white;">Book now</a></button><br><br>
+                    <p class="duration">📅 5 days / 4 nights</p>
+                    <p class="difficulty"> <span>Difficulty :</span> mid.</p><br><br>
+                    <p class="month">Best for : <span class="month-name">NOV, DEC, JAN, FEB, MAR</span></p>
+                </div>
+            </div>
+            <div class="one-1">
+                <img src="img1/place/manali.jpg" alt="manali" class="place-img">
+                <p class="place-tag">Manali</p>
+                <div class="place-info"><br>
+                    <P class="place-caption">Winter Snow Trek!</P><br>
+                    <p class="price"> <span class="r-symb">₹</span>8,000 <span class="r-per">/ person</span></p>
+                    <button class="book"><a href="book.php?heading=Manali" style="color: white;">Book now</a></button><br><br>
+                    <p class="duration">📅 8 days / 7 nights</p>
+                    <p class="difficulty"> <span>Difficulty :</span> hard</p><br><br>
+                    <p class="month">Best for : <span class="month-name">DEC, JAN, FEB, MARCH</span></p>
+                </div>
+            </div>
+
+    </div>
+
+    <!-- footer -->
+
+    <div class="footer" id="footer">
+        <div class="footer-container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our app</h3>
+                    <div class="col-1-para">
+                        <p>Download app for android and ios devices</p>
+                    </div>
+                    <div class="app-logo">
+                        <img src="img1/about/1.jpg">
+                        <img src="img1/about/2.jpg">
+                    </div>
+                </div>
+
+                <div class="footer-col-2">
+                    <h3>Our purpose</h3>
+                    <p>Our org. is a Non Government Organization, being run by young students for social reformation and building the nation with moral values and ethics</p>
+                </div>
+
+                <div class="footer-col-3">
+                    <h3>Contact us</h3>
+                    <ul>
+                        <li>Whatsapp : +91 1234567890</li>
+                        <li>Email : helpfromacademy@abcd.com</li>
+                    </ul>
+                </div>
+
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2022 - Web Dev Project ( Krupal Bavishi )</p>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
